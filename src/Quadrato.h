@@ -5,6 +5,10 @@
  *      Author: tps8
  */
 
+
+//! questa classe permetti di implmentare la cella del labirinto e permette di sviluppare i criteri di ricerca dei suoi dati
+//! quind viene inserita in una lista o in una coda di celle.
+
 #ifndef QUADRATO_H_
 #define QUADRATO_H_
 

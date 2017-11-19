@@ -13,7 +13,7 @@
 
 
 /// definisco una classe funzione cioè che effettua l'overloadd di ()
-/// questo oggetto è un funtore o oggetto funzionalee potra' essere
+/// questo oggetto è un funtore o oggetto funzionale e potra' essere
 /// usato come predicato nella find_if. Il predicato della find_if deve essere unario
 /// e quindi non può essere del tipo : bool operator()(<typename T> , <typenanme T> ) {return "confronto tra primo e secondo parametro"}
 /// Il predicato deve essere del tipo bool operator()(<typename T>){ return ....}
@@ -36,6 +36,7 @@ public:
 	~cercaLato();
 };
 
+/// Notare l'us di class ppure di struct
 struct cercaRiga {
 public:
 

@@ -59,6 +59,7 @@ int main() {
 
 
 	vector<string> Vs;
+	/// insieme delle celle che costituiscono il campo di gara ed iteratori di scorrimento e ricerca
 	list<Quadrato> Vq, tmp, campoGara;
 	list<Quadrato> *ptQ;
 	list<Quadrato>::iterator itQuad, itFin;
@@ -67,7 +68,7 @@ int main() {
 
 	ptQ = new list<Quadrato>;
 	if (ptQ == NULL)
-		cout << "aalocazione fallita\n";
+		cout << "allocazione fallita\n";
 	/// generatore di numeri casuali ON
 	srand(time(NULL));
 	cout << "inizializzato il generatore di numeri casuali: " << time(NULL) << endl;
@@ -77,6 +78,7 @@ int main() {
 		ins.mLato[i] = i;
 	}
 	ins.ID = 3;
+	/// carica l'elemento cella nella lista Vq
 	Vq.push_back(ins);
 	ins1.mColore = -13;
 
@@ -126,7 +128,7 @@ int main() {
 	if (!tmp.empty())
 		cout << "trovati n. " << tmp.size() << " elementi e creata lista" << endl;
 	else
-		cout << "non trovto nulla" << endl;
+		cout << "non trovato nulla" << endl;
 //	vector<string>::iterator iter;
 //	iter = find_if(Vs.begin(), Vs.end(), "terzo");
 //	if (iter != Vs.end()){
