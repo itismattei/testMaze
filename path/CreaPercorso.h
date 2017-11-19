@@ -5,6 +5,8 @@
  *      Author: tps8
  */
 
+//| questa classe presenta differenti percorsi a partire da una cella di inizio fino ad una cella di arrivo
+
 #ifndef CREAPERCORSO_H_
 #define CREAPERCORSO_H_
 
